@@ -34,7 +34,7 @@ conda env create -f environment.yml
 ```
 
 ### Prompt Tuning
-For Prompt Tuning, we used the [repository](https://github.com/thunlp/Prompt-Transferability) by Su et al. accompanying their paper on [Prompt Transferability](https://aclanthology.org/2022.naacl-main.290/).
+For Prompt Tuning, we used the [repository](https://github.com/thunlp/Prompt-Transferability) by Su et al. accompanying their paper on [Prompt Transferability](https://aclanthology.org/2022.naacl-main.290/). You can find their and our tuned prompts in the folder *continuous_prompts/*.
 
 ### Prompt transferability
 The prompt transferability of the prompts tuned for a specific `model` on certain `datasets` and with different `seeds` can be plotted with:
